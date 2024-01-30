@@ -1,0 +1,13 @@
+[
+    { "name": "Distilled Water Received", "id": "disWaterReceived" },
+    { "name": "Distilled Water Consumed", "id": "disWaterConsumed" },
+    { "name": "Distilled Water ROB", "id": "disWaterROB" },
+    { "name": "Distilled Water Produced", "id": "disWaterProdiced" },
+    { "name": "Fresh Water Received", "id": "freshWaterReceived" },
+    { "name": "Fresh Water Consumed", "id": "freshWaterConsumed" },
+    { "name": "Fresh Water ROB", "id": "freshWaterROB" },
+    { "name": "Slops Received", "id": "slopsReceived" },
+    { "name": "Slops ROB", "id": "slopsROB" },
+    { "name": "Charterer Cleaning Kit Onboard", "id": "charCleanKit" },
+    { "name": "Charterer Cleaning Chemicals ROB", "id": "charCleanChemicals" }
+]

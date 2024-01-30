@@ -1,0 +1,18 @@
+[
+    { "name": "Air Temp", "id": "airTemp" },
+    { "name": "Bar Pressure", "id": "barPressure" },
+    { "name": "Sea State", "id": "seaState" },
+    { "name": "Swell", "id": "swell" },
+    { "name": "Wind Force", "id": "windForce" },
+    { "name": "Current", "id": "current" },
+    { "name": "Sea Temp", "id": "seaTemp" },
+    { "name": "Bar Movement", "id": "barMovement" },
+    { "name": "Sea Direction", "id": "seaDirection" },
+    { "name": "Swell Direction", "id": "swellDirection" },
+    { "name": "Wind Direction", "id": "windDirection" },
+    { "name": "Current Direction", "id": "currentDirection" },
+    { "name": "Bad Weather Hours", "id": "badWeatherHours" },
+    { "name": "Bad Weather Distance", "id": "badWeaterDistance" },
+    { "name": "Sea Height", "id": "seaHeight" },
+    { "name": "Swell Height", "id": "swellHeight" }
+]

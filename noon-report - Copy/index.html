@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="bg-[#0499DA] pt-6 w-full h-4"></div>
+        <div class="flex justify-between mx-12 pt-12">
+            <img src="./logo.png" alt="logo" />
+            <h1 class="text-center text-3xl font-normal text-gray-500">
+                Noon Report
+            </h1>
+        </div>
+
+        <div class="mx-12 pt-6">
+            <span class="font-semibold">Company: </span>
+            <span>Centennial Maritime Venture Pvt. Ltd.</span>
+        </div>
+        <div class="mx-12 pt-2">
+            <!-- <div> -->
+            <span class="font-semibold">User: </span>
+            <span>Saurabh Mishra</span>
+        </div>
+        <div class="mx-12 pt-2">
+            <!-- <div> -->
+            <span class="font-semibold">Report Creation Date / Time: </span>
+            <span>18-Jan-2024 12:00 PM</span>
+        </div>
+
+        <div
+            class="grid grid-cols-5 border divide-x divide-gray-200 rounded-lg mx-12 mt-4"
+        >
+            <div class="p-3 flex flex-col">
+                <span class="text-gray-500 text-sm font-medium"
+                    >Voyage Number</span
+                >
+                <span class="text-xl">1347445</span>
+            </div>
+            <div class="p-3 flex flex-col">
+                <span class="text-gray-500 text-sm font-medium"
+                    >Vessel Name</span
+                >
+                <span class="text-xl">Ramya</span>
+            </div>
+            <div class="p-3 flex flex-col">
+                <span class="text-gray-500 text-sm font-medium"
+                    >Date / Time</span
+                >
+                <span class="text-xl">2024-01-24</span>
+            </div>
+            <div class="p-3 flex flex-col">
+                <span class="text-gray-500 text-sm font-medium">Port</span>
+                <span class="text-xl">Haifa Port</span>
+            </div>
+            <div class="p-3 flex flex-col">
+                <span class="text-gray-500 text-sm font-medium">Location</span>
+                <span class="text-xl">In-Transit</span>
+            </div>
+        </div>
+
+        <div class="mx-12 mt-6">
+            <h3 class="font-semibold text-xl pl-2">Basic Information</h3>
+            <dl class="divide-y divide-gray-100 mt-4">
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Latitude
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">38.8951</dd>
+                </div>
+
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Longitude
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">-77.0364</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Port ETD
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">5:00 PM</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Reference Port
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">Haifa Port</dd>
+                </div>
+            </dl>
+        </div>
+
+        <div class="mx-12 mt-6">
+            <h3 class="font-semibold text-xl pl-2">Distance and Vessel</h3>
+            <dl class="divide-y divide-gray-100 mt-4">
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        CP / Ordered Speed
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">52</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Reported Speed
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">50</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Observed Distance
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">310</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Engine Distance
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">20</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Main Engine Revs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">34</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        ME Output %
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">48 %</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Slip %
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">48 %</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Boiler Hours
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">5</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Incinerator Hours
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">5</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        FW Generator Hours
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">4</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Salinity
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">2</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Ballast
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">1</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator 1 Hrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">1</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator 2 Hrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">2</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator 3 Hrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator 4 Hrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">4</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Main Engine KWhrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">4 Kwhr</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator 1 KWhrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">4 Kwhr</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator 2 KWhrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">4 Kwhr</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator 3 KWhrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">4 Kwhr</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator 4 KWhrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">4 Kwhr</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Main Engine Hrs
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Average RPM
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">5 RPM</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Average BHP
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Fwd Draft
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">2</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Mid Draft
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Aft Draft
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">1</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Heading
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">1</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Steaming Hours
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">5</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">DWT</dt>
+                    <dd class="text-sm text-gray-600 pl-24">6</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Displacement
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">8</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Vessel Condition
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">Good</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Cargo Weight
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">500 Kg</dd>
+                </div>
+            </dl>
+        </div>
+        <!-- //disWaterReceived -->
+        <div class="mx-12 mt-6">
+            <h3 class="font-semibold text-xl pl-2">Weather</h3>
+            <dl class="divide-y divide-gray-100 mt-4">
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Air Temp
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">10 K</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Bar Pressure
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Sea State
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Swell
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Wind Force
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">5 Kmph</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Current
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">5</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Sea Temp
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">10 K</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Bar Movement
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">6</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Sea Direction
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">NE</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Swell Direction
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">NE</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Wind Direction
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">N</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Current Direction
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">W</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Bad Weather Hours
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">5</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Bad Weather Distance
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">50 Km</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Sea Height
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">150</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Swell Height
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">134</dd>
+                </div>
+            </dl>
+        </div>
+
+        <div class="mx-12 mt-6">
+            <h3 class="font-semibold text-xl pl-2">Water</h3>
+            <dl class="divide-y divide-gray-100 mt-4">
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Distilled Water Received
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">34</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Distilled Water Consumed
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Distilled Water ROB
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">34</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Distilled Water Produced
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">67</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Fresh Water Received
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">21</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Fresh Water Consumed
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">11</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Fresh Water ROB
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">10</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Slops Received
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">21</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Slops ROB
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">43</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Charterer Cleaning Kit Onboard
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">4</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Charterer Cleaning Chemicals ROB
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+            </dl>
+        </div>
+
+        <div class="mx-12 mt-6">
+            <h3 class="font-medium text-md pl-2">Bunkers ROB</h3>
+            <dl class="divide-y divide-gray-100 mt-4">
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">ROB</dt>
+                    <dd class="text-sm text-gray-600 pl-24">5</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Received
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">Main</dt>
+                    <dd class="text-sm text-gray-600 pl-24">45</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">Aux</dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Total
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">45</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Propulsion
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">54</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">1</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">L/D</dt>
+                    <dd class="text-sm text-gray-600 pl-24">34</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Idle/On
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">56</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">IGS</dt>
+                    <dd class="text-sm text-gray-600 pl-24">32</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Boiler
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">44</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">ROB</dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Received
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">Main</dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">Aux</dt>
+                    <dd class="text-sm text-gray-600 pl-24">54</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Total
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">3</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Propulsion
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">1</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Generator
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">32</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">L/D</dt>
+                    <dd class="text-sm text-gray-600 pl-24">33</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Idle/On
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">32</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">IGS</dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Boiler
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">32</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Cargo Heating
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">22</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Tank Cleaning
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">
+                        Others
+                    </dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+                <div class="py-1 sm:grid sm:grid-cols-2 sm:gap-4">
+                    <dt class="text-sm font-medium text-gray-700 ml-2">Adj</dt>
+                    <dd class="text-sm text-gray-600 pl-24">12</dd>
+                </div>
+            </dl>
+        </div>
+    </body>
+</html>
